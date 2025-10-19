@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artur Krasoń - Kontakt</title>
+</head>
+<body>
+
+    <header>
+        <h1>Artur Krasoń - Osobista Strona WWW</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">O mnie</a></li>
+                <li><a href="oferta.html">Oferta / Usługi</a></li>
+                <li><a href="galeria.html">Galeria / Portfolio</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>Skontaktuj się ze mną</h2>
+            <p>Najszybszy sposób kontaktu to formularz poniżej, ale możesz również skorzystać z moich danych kontaktowych.</p>
+        </section>
+
+        <section>
+            <h3>Formularz Kontaktowy</h3>
+            <form action="#" method="POST"> 
+                
+                <p>
+                    <label for="imie">Imię i Nazwisko:</label><br>
+                    <input type="text" id="imie" name="imie" required size="40">
+                </p>
+                
+                <p>
+                    <label for="email">Adres E-mail:</label><br>
+                    <input type="email" id="email" name="email" required size="40"> 
+                </p>
+
+                <p>
+                    <label for="temat">Temat wiadomości:</label><br>
+                    <input type="text" id="temat" name="temat" required size="40">
+                </p>
+                
+                <p>
+                    <label for="wiadomosc">Treść Wiadomości:</label><br>
+                    <textarea id="wiadomosc" name="wiadomosc" rows="8" cols="50" required></textarea>
+                </p>
+                
+                <p>
+                    <button type="submit">Wyślij Wiadomość</button> 
+                    <button type="reset">Wyczyść Formularz</button>
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h3>Moje Dane Kontaktowe (Tabela)</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Rodzaj Kontaktu</th>
+                        <th>Dane</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><a href="akrason.ti122@zsp1piotrkow.edu.pl">akrason.ti122@zsp1piotrkow.edu.pl</a></td>
+                    </tr>
+                    <tr>
+                        <td>Telefon</td>
+                        <td>123456789</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Artur Krasoń. Wszelkie prawa zastrzeżone.</p>
+        <p>Projekt w HTML bez użycia CSS.</p>
+    </footer>
+
+</body>
+</html>
